@@ -149,8 +149,8 @@ public class Robot extends TimedRobot {
 		new JoystickButton(rightJoystick, 2).whileHeld(new SetDriveSpeed(1));
 
 		// Drive fwd
-		new JoystickButton(rightJoystick, 3).whileHeld(new DriveHold(0.75));
-		new JoystickButton(rightJoystick, 5).whileHeld(new DriveHold(1));
+		new JoystickButton(rightJoystick, 5).whileHeld(new DriveHold(0.75));
+		new JoystickButton(rightJoystick, 3).whileHeld(new DriveHold(1));
 
 		// Drive back
 		new JoystickButton(rightJoystick, 6).whileHeld(new DriveHold(-1));
